@@ -7,10 +7,10 @@ function toggleMode() {
 
   if(html.classList.contains("light")){
     img.setAttribute('src', './assets/avatar-light.png')
-    img.setAttribute('alt', 'Foto de Mayk Brito sorrindo, usando óculos escuro e jaqueta preta, com fundo degradê.');   
+    img.setAttribute('alt', 'José de braços cruzador olhando para cima, com barba e blusa branca.');   
   } else {
     img.setAttribute('src', './assets/avatar.png');
-    img.setAttribute('alt', 'Foto de Mayk Brito sorrindo, usando óculos e camisa preta, barba e fundo amarelo.');   
+    img.setAttribute('alt', 'José de braços cruzados olhando para frente, com barba e blusa branca.');   
   }
 
     //se tiuver light mode, adicionar light
